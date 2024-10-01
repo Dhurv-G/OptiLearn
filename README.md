@@ -33,3 +33,52 @@ OptiLearn⚡ is an interactive AI-powered learning assistant designed to enhance
    ```bash
    git clone https://github.com/yourusername/optilearn.git
    cd optilearn
+Install required dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Set up environment variables:
+
+Create a .env file in the project directory with your API keys:
+
+plaintext
+Copy code
+GROQ_API_KEY=your_groq_api_key
+OLLAMA_API_KEY=your_ollama_api_key
+Run the application:
+
+bash
+Copy code
+streamlit run app.py
+Usage
+Text Chat: Type your questions in the input field and click "Send" to get a response.
+Voice Input: Use the microphone button to ask a question via voice.
+Live Class: Click "🎥Live Class" to start a live video session.
+Canvas: Click "🖍️Canvas" to open the drawing board. Draw and then click "Interpret Drawing" to get an AI response about your drawing.
+Save Drawings: Save your drawings locally by clicking "Save Drawing."
+Project Structure
+bash
+Copy code
+OptiLearn/
+│
+├── app.py               # Main entry point for the Streamlit app
+├── requirements.txt     # Dependencies
+├── .env                 # Environment variables (excluded from version control)
+├── utils/               # Helper modules and constants
+├── assets/              # Persona images and other assets
+└── README.md            # Project documentation
+Screenshots
+Add screenshots of the interface once finalized.
+
+Future Development
+Refined AI Models: Future updates will enhance the intelligence of the AI model to handle more complex queries and interactions.
+Real-Time Feedback: Introducing real-time speech feedback and enhancements to the voice recognition pipeline.
+Improved Canvas Integration: Expanding the capabilities of the drawing canvas to handle more complex interpretations and image recognition.
+Live Class Enhancements: Adding multi-user support for the live class feature.
+Contributing
+Feel free to contribute to this project by submitting issues or pull requests. Contributions are welcome as the project is still evolving.
+
+License
+This project is licensed under the MIT License.
+
