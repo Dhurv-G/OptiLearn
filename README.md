@@ -1,6 +1,3 @@
-# Let's create the markdown file content and save it in a file
-
-readme_content = """
 # **OptiLearn⚡ - Interactive Learning Assistant**
 
 OptiLearn⚡ is an interactive AI-powered learning assistant designed to enhance the educational experience through conversational AI, real-time video interactions, voice input, and a drawable canvas for interactive learning. It leverages cutting-edge AI models for responsive chat, voice feedback, and image recognition.
