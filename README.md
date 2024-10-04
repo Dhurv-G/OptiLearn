@@ -30,52 +30,55 @@ OptiLearn⚡ is an interactive AI-powered learning assistant designed to enhance
    ```bash
    git clone https://github.com/yourusername/optilearn.git
    cd optilearn
-Install required dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
-Set up environment variables:
+2. **Install required dependencies:**
+   ```bash
+   pip install -r requirements.txt
 
-Create a .env file in the project directory with your API keys:
+3. **Set up environment variables:**
+   
+   Create a `.env` file in the project directory with your API keys:
 
-plaintext
-Copy code
-GROQ_API_KEY=your_groq_api_key
-OLLAMA_API_KEY=your_ollama_api_key
-Run the application:
+   ```plaintext
+   GROQ_API_KEY=your_groq_api_key
+   OLLAMA_API_KEY=your_ollama_api_key
 
-bash
-Copy code
-streamlit run app.py
-Usage
-Text Chat: Type your questions in the input field and click "Send" to get a response.
-Voice Input: Use the microphone button to ask a question via voice.
-Live Class: Click "🎥Live Class" to start a live video session.
-Canvas: Click "🖍️Canvas" to open the drawing board. Draw and then click "Interpret Drawing" to get an AI response about your drawing.
-Save Drawings: Save your drawings locally by clicking "Save Drawing."
-Project Structure
-bash
-Copy code
-OptiLearn/
-│
-├── app.py               # Main entry point for the Streamlit app
-├── requirements.txt     # Dependencies
-├── .env                 # Environment variables (excluded from version control)
-├── utils/               # Helper modules and constants
-├── assets/              # Persona images and other assets
-└── README.md            # Project documentation
-Screenshots
-Add screenshots of the interface once finalized.
+4. **Run the application:**
 
-Future Development
-Refined AI Models: Future updates will enhance the intelligence of the AI model to handle more complex queries and interactions.
-Real-Time Feedback: Introducing real-time speech feedback and enhancements to the voice recognition pipeline.
-Improved Canvas Integration: Expanding the capabilities of the drawing canvas to handle more complex interpretations and image recognition.
-Live Class Enhancements: Adding multi-user support for the live class feature.
-Contributing
-Feel free to contribute to this project by submitting issues or pull requests. Contributions are welcome as the project is still evolving.
+   To run the application, use the following command:
 
-License
+   ```bash
+   streamlit run app.py
+
+## **Usage**
+
+1. **Text Chat:** Type your questions in the input field and click "Send" to get a response.
+2. **Voice Input:** Use the microphone button to ask a question via voice.
+3. **Live Class:** Click "🎥 Live Class" to start a live video session.
+4. **Canvas:** Click "🖍️ Canvas" to open the drawing board. Draw and then click "Interpret Drawing" to get an AI response about your drawing.
+5. **Save Drawings:** Save your drawings locally by clicking "Save Drawing."
+
+## **Project Structure**
+
+   ```bash
+   OptiLearn/
+   │
+   ├── app.py               # Main entry point for the Streamlit app
+   ├── requirements.txt     # Dependencies
+   ├── .env                 # Environment variables (excluded from version control)
+   ├── utils/               # Helper modules and constants
+   ├── assets/              # Persona images and other assets
+   └── README.md            # Project documentation
+   ```
+
+## **Future Development**
+
+- **Refined AI Models:** Future updates will enhance the intelligence of the AI model to handle more complex queries and interactions.
+- **Real-Time Feedback:** Introducing real-time speech feedback and enhancements to the voice recognition pipeline.
+- **Improved Canvas Integration:** Expanding the capabilities of the drawing canvas to handle more complex interpretations and image recognition.
+- **Live Class Enhancements:** Adding multi-user support for the live class feature.
+
+## **License**
+
 This project is licensed under the MIT License.
 
