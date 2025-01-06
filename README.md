@@ -28,7 +28,7 @@ OptiLearn⚡ is an interactive AI-powered learning assistant designed to enhance
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/optilearn.git
+   git clone https://github.com/Dhruv-G/optilearn.git
    cd optilearn
 
 2. **Install required dependencies:**
